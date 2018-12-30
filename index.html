@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- BOOTSTRAP Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- BOOTSTRAPOptional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron center">
+                    <div id="justifyContainer">
+
+                        <h2 id="right-triangle-title">PROGRAM FOR SOLVING A RIGHT TRIANGLE</h2>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>COMPANY:</h4>
+                                    <input type="text" name="company" style="display:inline">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>PROJECT:</h4>
+                                    <input type="text" name="project" style="display:inline">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <input type="radio" name="measurement" value="feet"> Feet
+                        <input type="radio" name="measurement" value="meters"> Meters
+
+                        <br>
+
+                        <br>
+                        <h4>INPUT:</h4>
+                        <input type="text" name="inputAngleTheta" id="inputAngleTheta">Angle Theta (degrees), the angle between the hypotenuse and the side adjacent
+                        <br>
+                        <input type="text" name="inputHypotenuse" id="inputHypotenuse">Hypotenuse
+                        <br>
+                        <input type="text" name="inputAdjacent" id="inputAdjacent">Side Adjacent, next to the point of origin
+                        <br>
+                        <input type="text" name="inputOpposite" id="inputOpposite">Side Opposite
+                        <br>
+
+                        <hr>
+
+                        <h4>OUTPUT:</h4>
+                        <input type="text" name="outputAngleTheta" id="outputAngleTheta">Angle Theta, degrees
+                        <br>
+                        <input type="text" name="outputHypotenuse" id="outputHypotenuse">Hypotenuse
+                        <br>
+                        <input type="text" name="outputAdjacent" id="outputAdjacent">Side Adjacent
+                        <br>
+                        <input type="text" name="outputOpposite" id="outputOpposite">Side Opposite
+                        <br>
+                        <input type="text" name="outputAngleBetween" id="outputAngleBetween">Angle between Hypotenuse and Side Opposite, (90 – Theta), degrees
+                        <br>
+
+                        <hr>
+
+                        <button type="submit" value="Submit" id="calculate">CALCULATE</button> <button type="submit" value="Submit" id="printable">PRINTABLE</button> <button type="submit" value="Submit" id="elevation-view">ELEVATION VIEW</button> <button type="submit" value="Submit" id="sample-values">SAMPLE VALUES</button> <button type="submit" value="Submit" id="help">HELP</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- JAVASCRIPT -->
+    <script src="./app.js"></script>
+    <!-- BOOTSTRAPLatest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
