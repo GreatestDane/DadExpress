@@ -91,3 +91,10 @@ $("#sample-values").on("click", ()=> {
     $("#outputOpposite").val(3.00);
     $("#outputAngleBetween").val(53.13);
 })
+
+
+//Create functionality for the Elevation View button
+
+$("#elevation-view").on("click", ()=> {
+    window.open("www.pornhub.com")
+})
