@@ -96,5 +96,11 @@ $("#sample-values").on("click", ()=> {
 //Create functionality for the Elevation View button
 
 $("#elevation-view").on("click", ()=> {
-    window.open("www.pornhub.com")
+    window.open("./files/RTANGSketch.jpg", "Right Angle Overhead", "height=600, width=600");
+})
+
+
+//Create the functionality for the Help button
+$("#help").on("click", ()=> {
+    window.open("./files/RTANGHelp.htm", "Help", "height=600, width=600")
 })
