@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PROGRAM TO DESIGN A PAD EYE TYPE LIFTING LUG v.04</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./padeyelug.css">
+    <!-- BOOTSTRAP Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- BOOTSTRAPOptional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron center">
+                    <div id="justifyContainer">
+
+                        <h2 id="padeyelug-title">PROGRAM TO DESIGN A PAD EYE TYPE LIFTING LUG v.04</h2>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>COMPANY:</h4>
+                                    <input type="text" name="company" style="display:inline">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>PROJECT:</h4>
+                                    <input type="text" name="project" style="display:inline">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>ITEM NUMBER:</h4>
+                                    <input type="text" name="item-number" style="display:inline">
+                                </div>
+                            </div>
+
+                            <br>
+
+
+                            <br>
+
+                            <!-- Drop down menu -->
+                            <div class="row">
+                                <h4>Select a metric shackle from the lookup table based on the force on the lug or click the
+                                    SHACKLE button to enter your own</h4>
+                                <form>
+                                    <select name="metric-shackle" id="drop-down">
+                                        <option value="crosby-g2130x85">Crosby G2130x85</option>
+                                        <option value="crosby-g2130x850">Crosby G2130x8.50</option>
+                                        <option value="crosby-g2130x12">Crosby G2130x12</option>
+                                        <option value="crosby-g2130x17">Crosby G2130x17</option>
+                                        <option value="crosby-g2130x25">Crosby G2130x25</option>
+                                        <option value="crosby-g2130x35">Crosby G2130x35</option>
+                                        <option value="crosby-g2130x55">Crosby G2130x55</option>
+                                        <option value="crosby-g2130x85">Crosby G2130x85</option>
+                                        <option value="crosby-g2130x120">Crosby G2130x120</option>
+                                        <option value="crosby-g2130x150">Crosby G2130x150</option>
+                                        <option value="crosby-g2140x200">Crosby G2140x200</option>
+                                        <option value="crosby-g2140x250">Crosby G2140x250</option>
+                                        <option value="crosby-g2140x300">Crosby G2140x300</option>
+                                        <option value="crosby-g2140x400">Crosby G2140x400</option>
+                                    </select>
+                                    
+                                </form>
+                            </div>
+                            <!-- End drop down menu-->
+
+                            <input type="text" name="inside-pin" id="inside-pin"><code>&nbsp;</code>in	Shackle Inside Width at Pin
+                            <br>
+                            <input type="text" name="eye-diameter" id="eye-diameter">in	Shackle Eye Diameter
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">in	Shackle Pin Diameter
+                            <br>
+                            <input type="text" name="lug-pin-hole" id="lug-pin-hole">in	Lug Pin Hole Diameter	Recommend hole be 0.13ï¿½ or > than shackle pin dia
+                            <br>
+                            <input type="text" name="lug-radius" id="lug-radius">in	Lug Radius
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+                            <input type="text" name="pin-diameter" id="pin-diameter">
+                            <br>
+
+                            <hr>
+
+                            <h4>OUTPUT:</h4>
+                            <input type="text" name="outputAngleTheta" id="outputAngleTheta">Angle Theta, degrees
+                            <br>
+                            <input type="text" name="outputHypotenuse" id="outputHypotenuse">Hypotenuse
+                            <br>
+                            <input type="text" name="outputAdjacent" id="outputAdjacent">Side Adjacent
+                            <br>
+                            <input type="text" name="outputOpposite" id="outputOpposite">Side Opposite
+                            <br>
+                            <input type="text" name="outputAngleBetween" id="outputAngleBetween">Angle between Hypotenuse and Side Opposite, (90 – Theta), degrees
+                            <br>
+
+                            <hr>
+
+                            <button type="submit" value="Submit" id="calculate">CALCULATE</button>
+                            <button type="submit" value="Submit" id="printable">PRINTABLE</button>
+                            <button type="submit" value="Submit" id="elevation-view">ELEVATION VIEW</button>
+                            <button type="submit" value="Submit" id="sample-values">SAMPLE VALUES</button>
+                            <button type="submit" value="Submit" id="help">HELP</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <!-- JAVASCRIPT -->
+        <script src="./padeyelug.js"></script>
+        <!-- BOOTSTRAPLatest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

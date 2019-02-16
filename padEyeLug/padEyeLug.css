@@ -1,0 +1,14 @@
+#padeyelug-title {
+    text-align: center;
+}
+
+input {
+    border-style: inset;
+    border-width: 3px;
+    padding-left: 5px;
+};
+
+.justifyContainer {
+    margin-left: 10px;
+}
+

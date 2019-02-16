@@ -3,15 +3,17 @@
 }
 
 input {
-    border-right-width: 10px;
+    border-style: inset;
+    border-width: 3px;
     padding-left: 5px;
+    margin-right: 10px;
 };
 
 .justifyContainer {
     margin-left: 10px;
 }
 
-hr {
+/* hr {
     display: block;
     position: relative;
     padding: 0;
@@ -19,11 +21,11 @@ hr {
     height: 0;
     width: 100%;
     max-height: 0;
-    font-size: 1px;
-    line-height: 0;
+    font-size: 5px;
+    line-height: 5;
     clear: both;
     border: none;
-    border-top: 1px solid #aaaaaa;
-    border-bottom: 1px solid #ffffff;
- }
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+ } */
 
