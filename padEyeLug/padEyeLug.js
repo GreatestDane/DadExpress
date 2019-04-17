@@ -52,8 +52,39 @@ let H74;
 //Write out the function for the input calculations
 
 function calculate() {
-    
-}
+    H28 = H12 * Math.sin(H13 * Math.PI / 180);
+    H29 = H12 * Math.cos(H13 * Math.PI / 180);
+
+    H30 = H16 * H18;
+    H31 = (H16 * H18^2) / 6;
+    H32 = H29 * H17 * H14 / H31;
+    H33 = H28 * H14 / H30;
+    H34 = H29 * H14 / H30;
+    H35 = 0.6 * H10;
+    H36 = 0.4 * H10;
+    H37 = H33 / H35 + H32 / H35 + H34 / H36;
+
+    H68 = 2 * H18;
+    H69 = H29 * H14 / H68;
+    H70 = H28 * H14 / H68;
+    H71 = H29 * H14 * H17;
+    H67 = (H18^2) / 3;
+    H72 = H71/H67;
+    H73 = Math.sqrt((H72 + H70)^2 + (H69^2));
+    H74 = H73 / H11;
+
+    H43 = H12 * H14 / (H24 * H16);
+    H45 = H12 * H14 / (H24 * (H16 + 2 * H22));
+    H44 = 0.9 * H10;
+
+    H46 = H22 * H12 / (2 * H22 + H16);
+
+    if (H23 === 0) {
+        H47 = 0;
+    } else {
+        H47 = H46 * H14 / (H23 * 2 * 3.1416 * 9.6);
+    };
+};
 
 
 //First, set up the static values for when the user loads the page (first values numbers)
