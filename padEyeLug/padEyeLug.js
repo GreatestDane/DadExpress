@@ -19,11 +19,40 @@ let H10;
 let H11;
 let H14;
 
+//Declare variables for calculation function
+
+let H28;
+let H29;
+let H30;
+let H31;
+let H32;
+let H33;
+let H34;
+let H35;
+let H36;
+let H37;
+
+let H43;
+let H44;
+let H45;
+let H46;
+let H47;
+
+let H67;
+let H68;
+let H69;
+let H70;
+let H71;
+let H72;
+let H73;
+let H74;
+
+
 
 //Write out the function for the input calculations
 
 function calculate() {
-
+    
 }
 
 
@@ -191,7 +220,6 @@ $("#drop-down").on("change", () => {
         console.log(H11);
         console.log(H14);
         console.log("<----BREAK---->")
-
 
     }
     else if (dropDown === "crosby-g2130x17") {
