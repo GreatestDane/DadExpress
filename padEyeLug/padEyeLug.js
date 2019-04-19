@@ -89,29 +89,29 @@ function calculate() {
 
     //Print output field 1
 
-    $("H30").val(H30);
-    $("H31").val(H31);
-    $("H32").val(H32);
-    $("H33").val(H33);
-    $("H34").val(H34);
-    $("H35").val(H35);
-    $("H36").val(H36);
-    $("H37").val(H37);
+    $("#H30").val(H30);
+    $("#H31").val(H31);
+    $("#H32").val(H32);
+    $("#H33").val(H33);
+    $("#H34").val(H34);
+    $("#H35").val(H35);
+    $("#H36").val(H36);
+    $("#H37").val(H37);
 
     //Print output field 2
 
-    $("H68").val(H68);
-    $("H67").val(H67);
-    $("H73").val(H73);
-    $("H74").val(H74);
+    $("#H68").val(H68);
+    $("#H67").val(H67);
+    $("#H73").val(H73);
+    $("#H74").val(H74);
 
     //Print output field 3
 
-    $("H43").val(H43);
-    $("H45").val(H45);
-    $("H44").val(H44);
-    $("H46").val(H46);
-    $("H47").val(H47);
+    $("#H43").val(H43);
+    $("#H45").val(H45);
+    $("#H44").val(H44);
+    $("#H46").val(H46);
+    $("#H47").val(H47);
 
     //Print output field 4
 
@@ -172,6 +172,24 @@ if (dropDown === "crosby-g2130x85") {
 
     $("#calculate").on("click", () => {
         calculate();
+
+        console.log("<----INPUTS---->");
+        console.log(H25);
+        console.log(H75);
+        console.log(H24);
+        console.log(H20);
+        console.log(H21);
+        console.log(H16);
+        console.log(H18);
+        console.log(H22);
+        console.log(H23);
+        console.log(H17);
+        console.log(H12);
+        console.log(H13);
+        console.log(H10);
+        console.log(H11);
+        console.log(H14);
+        console.log("<----OUTPUTS---->");
 
         console.log(H28);
         console.log(H29);
@@ -257,32 +275,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -332,32 +368,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -406,32 +460,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -480,32 +552,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -554,32 +644,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -628,32 +736,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -702,32 +828,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -776,32 +920,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -850,32 +1012,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -924,32 +1104,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -998,32 +1196,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -1072,32 +1288,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
@@ -1146,32 +1380,50 @@ $("#drop-down").on("change", () => {
         $("#calculate").on("click", () => {
             calculate();
 
+            console.log("<----INPUTS---->");
+            console.log(H25);
+            console.log(H75);
+            console.log(H24);
+            console.log(H20);
+            console.log(H21);
+            console.log(H16);
+            console.log(H18);
+            console.log(H22);
+            console.log(H23);
+            console.log(H17);
+            console.log(H12);
+            console.log(H13);
+            console.log(H10);
+            console.log(H11);
+            console.log(H14);
+            console.log("<----OUTPUTS---->");
+
             console.log(H28);
-        console.log(H29);
-        console.log(H30);
-        console.log(H31);
-        console.log(H32);
-        console.log(H33);
-        console.log(H34);
-        console.log(H35);
-        console.log(H36);
-        console.log(H37);
+            console.log(H29);
+            console.log(H30);
+            console.log(H31);
+            console.log(H32);
+            console.log(H33);
+            console.log(H34);
+            console.log(H35);
+            console.log(H36);
+            console.log(H37);
 
-        console.log(H43);
-        console.log(H44);
-        console.log(H45);
-        console.log(H46);
-        console.log(H47);
+            console.log(H43);
+            console.log(H44);
+            console.log(H45);
+            console.log(H46);
+            console.log(H47);
 
-        console.log(H67);
-        console.log(H68);
-        console.log(H69);
-        console.log(H70);
-        console.log(H71);
-        console.log(H72);
-        console.log(H73);
-        console.log(H74);
-        console.log("<------Break----->");
+            console.log(H67);
+            console.log(H68);
+            console.log(H69);
+            console.log(H70);
+            console.log(H71);
+            console.log(H72);
+            console.log(H73);
+            console.log(H74);
+            console.log("<------Break----->");
 
         });
 
