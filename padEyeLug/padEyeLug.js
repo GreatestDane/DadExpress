@@ -167,25 +167,11 @@ if (dropDown === "crosby-g2130x85") {
     H11 = $("#allowable-force").val();
     H14 = $("#impact-factor").val();
 
-    console.log(H25);
-    console.log(H75);
-    console.log(H24);
-    console.log(H20);
-    console.log(H21);
-    console.log(H16);
-    console.log(H18);
-    console.log(H22);
-    console.log(H23);
-    console.log(H17);
-    console.log(H12);
-    console.log(H13);
-    console.log(H10);
-    console.log(H11);
-    console.log(H14);
-    console.log("<----BREAK---->")
+    //After the input values are set, the user can press the "calculate button"
+    //If the calculate button is pressed, run the calculate function
 
     $("#calculate").on("click", () => {
-        alert("hey!");
+        calculate();
     });
 
 }
