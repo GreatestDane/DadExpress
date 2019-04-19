@@ -172,6 +172,34 @@ if (dropDown === "crosby-g2130x85") {
 
     $("#calculate").on("click", () => {
         calculate();
+
+        console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
     });
 
 }
@@ -228,6 +256,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
 
@@ -275,6 +331,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -321,6 +405,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -367,6 +479,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -413,6 +553,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -459,6 +627,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -505,6 +701,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -551,6 +775,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -597,6 +849,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -643,6 +923,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -689,6 +997,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -735,6 +1071,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     }
@@ -781,6 +1145,34 @@ $("#drop-down").on("change", () => {
 
         $("#calculate").on("click", () => {
             calculate();
+
+            console.log(H28);
+        console.log(H29);
+        console.log(H30);
+        console.log(H31);
+        console.log(H32);
+        console.log(H33);
+        console.log(H34);
+        console.log(H35);
+        console.log(H36);
+        console.log(H37);
+
+        console.log(H43);
+        console.log(H44);
+        console.log(H45);
+        console.log(H46);
+        console.log(H47);
+
+        console.log(H67);
+        console.log(H68);
+        console.log(H69);
+        console.log(H70);
+        console.log(H71);
+        console.log(H72);
+        console.log(H73);
+        console.log(H74);
+        console.log("<------Break----->");
+
         });
 
     };
