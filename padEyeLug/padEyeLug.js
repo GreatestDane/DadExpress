@@ -75,7 +75,7 @@ function calculate() {
     H29 = H12 * Math.cos(H13 * Math.PI / 180);
 
     H30 = H16 * H18;
-    H31 = (H16 * H18 ^ 2) / 6;
+    H31 = Math.pow((H16 * H18), 2) / 6;
     H32 = H29 * H17 * H14 / H31;
     H33 = H28 * H14 / H30;
     H34 = H29 * H14 / H30;
@@ -87,9 +87,9 @@ function calculate() {
     H69 = H29 * H14 / H68;
     H70 = H28 * H14 / H68;
     H71 = H29 * H14 * H17;
-    H67 = (H18 ^ 2) / 3;
+    H67 = Math.pow(H18, 2) / 3;
     H72 = H71 / H67;
-    H73 = Math.sqrt((H72 + H70) ^ 2 + (H69 ^ 2));
+    H73 = Math.sqrt(Math.pow((H72 + H70), 2) + Math.pow(H69, 2));
     H74 = H73 / H11;
 
     H43 = H12 * H14 / (H24 * H16);
