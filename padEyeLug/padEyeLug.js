@@ -166,24 +166,6 @@ if (dropDown === "crosby-g2130x85") {
     $("#allowable-force").val(14.85);
     $("#impact-factor").val(1.80);
 
-    //Convert the input values to variables
-
-    // H25 = $("#inside-pin").val();
-    // H75 = $("#eye-diameter").val();
-    // H24 = $("#pin-diameter").val();
-    // H20 = $("#lug-pin-hole").val();
-    // H21 = $("#lug-radius").val();
-    // H16 = $("#lug-plate-thickness").val();
-    // H18 = $("#lug-plate-width-base").val();
-    // H22 = $("#lug-pad-thickness").val();
-    // H23 = $("#lug-pad-radius").val();
-    // H17 = $("#lug-eccentricity").val();
-    // H12 = $("#lug-force").val();
-    // H13 = $("#angle-of-force").val();
-    // H10 = $("#yield-stress").val();
-    // H11 = $("#allowable-force").val();
-    // H14 = $("#impact-factor").val();
-
     //After the input values are set, the user can press the "calculate button"
     //If the calculate button is pressed, run the calculate function
 
@@ -268,24 +250,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -361,24 +325,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -452,24 +398,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
@@ -545,24 +473,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -636,24 +546,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
@@ -729,24 +621,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -820,24 +694,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
@@ -913,24 +769,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -1004,24 +842,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
@@ -1097,24 +917,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -1188,24 +990,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = Number($("#inside-pin").val());
-        // H75 = Number($("#eye-diameter").val());
-        // H24 = Number($("#pin-diameter").val());
-        // H20 = Number($("#lug-pin-hole").val());
-        // H21 = Number($("#lug-radius").val());
-        // H16 = Number($("#lug-plate-thickness").val());
-        // H18 = Number($("#lug-plate-width-base").val());
-        // H22 = Number($("#lug-pad-thickness").val());
-        // H23 = Number($("#lug-pad-radius").val());
-        // H17 = Number($("#lug-eccentricity").val());
-        // H12 = Number($("#lug-force").val());
-        // H13 = Number($("#angle-of-force").val());
-        // H10 = Number($("#yield-stress").val());
-        // H11 = Number($("#allowable-force").val());
-        // H14 = Number($("#impact-factor").val());
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
@@ -1281,40 +1065,6 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
-
-        // H25 = Number($("#inside-pin").val());
-        // H75 = Number($("#eye-diameter").val());
-        // H24 = Number($("#pin-diameter").val());
-        // H20 = Number($("#lug-pin-hole").val());
-        // H21 = Number($("#lug-radius").val());
-        // H16 = Number($("#lug-plate-thickness").val());
-        // H18 = Number($("#lug-plate-width-base").val());
-        // H22 = Number($("#lug-pad-thickness").val());
-        // H23 = Number($("#lug-pad-radius").val());
-        // H17 = Number($("#lug-eccentricity").val());
-        // H12 = Number($("#lug-force").val());
-        // H13 = Number($("#angle-of-force").val());
-        // H10 = Number($("#yield-stress").val());
-        // H11 = Number($("#allowable-force").val());
-        // H14 = Number($("#impact-factor").val());
-
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
 
@@ -1388,24 +1138,6 @@ $("#drop-down").on("change", () => {
         $("#yield-stress").val(36.00);
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
-
-        //Convert the input values to variables
-
-        // H25 = $("#inside-pin").val();
-        // H75 = $("#eye-diameter").val();
-        // H24 = $("#pin-diameter").val();
-        // H20 = $("#lug-pin-hole").val();
-        // H21 = $("#lug-radius").val();
-        // H16 = $("#lug-plate-thickness").val();
-        // H18 = $("#lug-plate-width-base").val();
-        // H22 = $("#lug-pad-thickness").val();
-        // H23 = $("#lug-pad-radius").val();
-        // H17 = $("#lug-eccentricity").val();
-        // H12 = $("#lug-force").val();
-        // H13 = $("#angle-of-force").val();
-        // H10 = $("#yield-stress").val();
-        // H11 = $("#allowable-force").val();
-        // H14 = $("#impact-factor").val();
 
         //After the input values are set, the user can press the "calculate button"
         //If the calculate button is pressed, run the calculate function
