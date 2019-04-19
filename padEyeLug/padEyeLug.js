@@ -52,11 +52,13 @@ let H74;
 //Write out the function for the input calculations
 
 function calculate() {
+
+    //Here are the calculations that I do not understand
     H28 = H12 * Math.sin(H13 * Math.PI / 180);
     H29 = H12 * Math.cos(H13 * Math.PI / 180);
 
     H30 = H16 * H18;
-    H31 = (H16 * H18^2) / 6;
+    H31 = (H16 * H18 ^ 2) / 6;
     H32 = H29 * H17 * H14 / H31;
     H33 = H28 * H14 / H30;
     H34 = H29 * H14 / H30;
@@ -68,9 +70,9 @@ function calculate() {
     H69 = H29 * H14 / H68;
     H70 = H28 * H14 / H68;
     H71 = H29 * H14 * H17;
-    H67 = (H18^2) / 3;
-    H72 = H71/H67;
-    H73 = Math.sqrt((H72 + H70)^2 + (H69^2));
+    H67 = (H18 ^ 2) / 3;
+    H72 = H71 / H67;
+    H73 = Math.sqrt((H72 + H70) ^ 2 + (H69 ^ 2));
     H74 = H73 / H11;
 
     H43 = H12 * H14 / (H24 * H16);
@@ -84,11 +86,52 @@ function calculate() {
     } else {
         H47 = H46 * H14 / (H23 * 2 * 3.1416 * 9.6);
     };
+
+    //Print output field 1
+
+    $("H30").val(H30);
+    $("H31").val(H31);
+    $("H32").val(H32);
+    $("H33").val(H33);
+    $("H34").val(H34);
+    $("H35").val(H35);
+    $("H36").val(H36);
+    $("H37").val(H37);
+
+    //Print output field 2
+
+    $("H68").val(H68);
+    $("H67").val(H67);
+    $("H73").val(H73);
+    $("H74").val(H74);
+
+    //Print output field 3
+
+    $("H43").val(H43);
+    $("H45").val(H45);
+    $("H44").val(H44);
+    $("H46").val(H46);
+    $("H47").val(H47);
+
+    //Print output field 4
+
+    $("H49").val(H49);
+    $("H58").val(H58);
+    $("H60").val(H60);
+
+    //Print output field 5
+
+    $("H62").val(H62);
+    $("H63").val(H63);
+    $("H64").val(H64);
+
 };
 
 
 //First, set up the static values for when the user loads the page (first values numbers)
 if (dropDown === "crosby-g2130x85") {
+
+    //Print input field 1
 
     $("#inside-pin").val(1.69);
     $("#eye-diameter").val(2.38);
@@ -105,6 +148,8 @@ if (dropDown === "crosby-g2130x85") {
     $("#yield-stress").val(36.00);
     $("#allowable-force").val(14.85);
     $("#impact-factor").val(1.80);
+
+    //Convert the input values to variables
 
     H25 = $("#inside-pin").val();
     H75 = $("#eye-diameter").val();
@@ -139,16 +184,24 @@ if (dropDown === "crosby-g2130x85") {
     console.log(H14);
     console.log("<----BREAK---->")
 
+    $("#calculate").on("click", () => {
+        alert("hey!");
+    });
+
 }
 
 
 //This is where we're going to do the actual options for the drop down menu and the input fields
 $("#drop-down").on("change", () => {
+
+    //Convert the selected option into a variable
     dropDown = $('#drop-down option:selected').val();
 
 
-
+    //Begin if statements to supply numbers based off of option selection
     if (dropDown === "crosby-g2130x85") {
+
+        //Print input field 1
 
         $("#inside-pin").val(1.69);
         $("#eye-diameter").val(2.38);
@@ -166,6 +219,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -182,26 +237,18 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
 
     }
     else if (dropDown === "crosby-g2130x12") {
+
+        //Print input field 1
 
         $("#inside-pin").val(2.03);
         $("#eye-diameter").val(3.00);
@@ -219,6 +266,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -235,25 +284,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x17") {
+
+        //Print input field 1
 
         $("#inside-pin").val(2.38);
         $("#eye-diameter").val(3.63);
@@ -271,6 +312,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -287,25 +330,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x25") {
+
+        //Print input field 1
 
         $("#inside-pin").val(2.88);
         $("#eye-diameter").val(4.19);
@@ -323,6 +358,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -339,25 +376,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x35") {
+
+        //Print input field 1
 
         $("#inside-pin").val(3.25);
         $("#eye-diameter").val(4.81);
@@ -375,6 +404,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -391,25 +422,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x55") {
+
+        //Print input field 1
 
         $("#inside-pin").val(4.13);
         $("#eye-diameter").val(5.69);
@@ -427,6 +450,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -443,25 +468,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x85") {
+
+        //Print input field 1
 
         $("#inside-pin").val(5.00);
         $("#eye-diameter").val(6.50);
@@ -479,6 +496,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -495,25 +514,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x120") {
+
+        //Print input field 1
 
         $("#inside-pin").val(5.25);
         $("#eye-diameter").val(8.00);
@@ -531,6 +542,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -547,25 +560,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2130x150") {
+
+        //Print input field 1
 
         $("#inside-pin").val(5.50);
         $("#eye-diameter").val(9.00);
@@ -583,6 +588,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -599,25 +606,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2140x200") {
+
+        //Print input field 1
 
         $("#inside-pin").val(7.25);
         $("#eye-diameter").val(10.50);
@@ -635,6 +634,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -651,25 +652,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2140x250") {
+
+        //Print input field 1
 
         $("#inside-pin").val(8.50);
         $("#eye-diameter").val(12.00);
@@ -687,6 +680,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -703,25 +698,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2140x300") {
+
+        //Print input field 1
 
         $("#inside-pin").val(8.38);
         $("#eye-diameter").val(12.00);
@@ -739,6 +726,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -755,25 +744,17 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
+
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
     }
     else if (dropDown === "crosby-g2140x400") {
+
+        //Print input field 1
 
         $("#inside-pin").val(8.25);
         $("#eye-diameter").val(14.00);
@@ -791,6 +772,8 @@ $("#drop-down").on("change", () => {
         $("#allowable-force").val(14.85);
         $("#impact-factor").val(1.80);
 
+        //Convert the input values to variables
+
         H25 = $("#inside-pin").val();
         H75 = $("#eye-diameter").val();
         H24 = $("#pin-diameter").val();
@@ -807,23 +790,13 @@ $("#drop-down").on("change", () => {
         H11 = $("#allowable-force").val();
         H14 = $("#impact-factor").val();
 
-        console.log(H25);
-        console.log(H75);
-        console.log(H24);
-        console.log(H20);
-        console.log(H21);
-        console.log(H16);
-        console.log(H18);
-        console.log(H22);
-        console.log(H23);
-        console.log(H17);
-        console.log(H12);
-        console.log(H13);
-        console.log(H10);
-        console.log(H11);
-        console.log(H14);
-        console.log("<----BREAK---->")
+        //After the input values are set, the user can press the "calculate button"
+        //If the calculate button is pressed, run the calculate function
 
-    }
+        $("#calculate").on("click", () => {
+            calculate();
+        });
 
-})
+    };
+
+});
